@@ -1,4 +1,4 @@
-class NumeroDebeSerPositivo(Exception):
+'''class NumeroDebeSerPositivo(Exception):
     """Excepción lanzada cuando se ingresa un número negativo."""
     pass
 
@@ -21,3 +21,4 @@ def ingrese_numero():
         return numero
     except ValueError:
         raise ValueError("La entrada debe ser un número válido") 
+        '''
